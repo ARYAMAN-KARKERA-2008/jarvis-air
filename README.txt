@@ -1,10 +1,6 @@
-JARVIS AIR — mobile PWA starter
-
-1. Extract this ZIP.
-2. Upload the CONTENTS of jarvis_air folder to a static HTTPS host (e.g. GitHub Pages or Netlify).
-3. Visit the HTTPS URL on Android Chrome or iPhone Safari.
-4. Android: browser menu > Install app / Add to Home screen.
-5. iPhone: Safari Share > Add to Home Screen.
-6. Tap Talk to JARVIS and grant microphone permission if prompted.
-
-SpeechRecognition support varies across browsers and OS versions. Typed commands are the fallback. This version is rule-based, not connected to an AI model. Background wake-word and unrestricted device control are not included.
+JARVIS AI Connected Frontend
+Backend: https://jarvis-ai-backend-18h4.onrender.com
+Upload these extracted files to your existing jarvis-air GitHub repository, replacing old files.
+On Render backend set FRONTEND_ORIGIN to your exact frontend origin (e.g. https://YOUR-SITE.onrender.com) to permit cross-origin browser requests.
+IMPORTANT SECURITY: This backend currently has no user authentication or rate limiting. FRONTEND_ORIGIN/CORS alone is NOT security. Do not expose publicly with an active billable API key until authentication and rate limiting are implemented. Use only for private testing with API spend limits.
+If the app appears unchanged, clear site data / uninstall and reinstall PWA.
